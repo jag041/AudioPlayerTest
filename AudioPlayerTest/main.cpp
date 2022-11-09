@@ -163,7 +163,7 @@ int main()
         std::vector<std::vector<std::string>> file_names = { guitar_file_names, drum_file_names, bass_file_names };
 
         WavDirInputFormat wav_dir_format;
-        wav_dir_format.root_file_path = "C:/Users/rgrie/OneDrive/Desktop/nadrix/old_proj_files/unit tests/audio/samples/";
+        wav_dir_format.root_file_path = "./../samples/";
         wav_dir_format.instruments = instruments;
         wav_dir_format.files = file_names;
         wav_dir_format.num_files = guitar_file_names.size() + drum_file_names.size() + bass_file_names.size();
